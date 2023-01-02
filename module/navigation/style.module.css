@@ -1,0 +1,36 @@
+.nav {
+    position: absolute;
+    transition: 0.3s;
+    top: -200px;
+    background: white;
+    width: 100%;
+    z-index: 99;
+}
+.navIn {
+    display: block;
+    top: 60px;
+}
+.navbar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.navbar > li {
+    width: 50%;
+    padding: 10px;
+}
+.navbar > li > a {
+    text-transform: uppercase;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    display: block;
+    padding: 13px 0;
+    font-weight: 600;
+}
+.navbar > li > a:hover {
+    border: 1px solid #000000;
+}
