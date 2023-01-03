@@ -10,8 +10,14 @@ const Layout = ({ children }) => {
     }, [isNavIn]);
     return (
         <>
-            <Header handleClick={handleClick} isNavIn={isNavIn} />
-            <Navigation isNavIn={isNavIn} />
+            <Header
+                handleClick={handleClick}
+                isNavIn={isNavIn}
+            />
+            <Navigation
+                isNavIn={isNavIn}
+                handleClick={handleClick}
+            />
             <main>{children}</main>
         </>
     );

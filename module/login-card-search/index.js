@@ -5,9 +5,9 @@ import style from "./style.module.css";
 const LoginCardSearch = () => {
     return (
         <div className={style.loginCardSearch}>
-            <span><i class="fa-solid fa-user"></i></span>
-            <Link href="/basket"><i class="fa-solid fa-cart-shopping"></i></Link>
-            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+            <span><i className="fa-solid fa-user"></i></span>
+            <Link href="/basket"><i className="fa-solid fa-cart-shopping"></i></Link>
+            <span><i className="fa-solid fa-magnifying-glass"></i></span>
         </div>
     );
 };

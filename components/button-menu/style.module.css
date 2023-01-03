@@ -40,3 +40,9 @@
     position: relative;
     transform: rotate(-45deg);
 }
+
+@media (min-width: 850px) {
+    .buttonMenu {
+        display: none;
+    }
+}

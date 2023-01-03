@@ -1,0 +1,18 @@
+.promotionsCard {
+    height: 100%;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.promotionsCard > img {
+    overflow: hidden;
+}
+.promotionsCard > h3 {
+    font-size: 1.5rem;
+}
+.promotionsCard > p {
+    font-size: 1.2rem;
+    line-height: 35px;
+}

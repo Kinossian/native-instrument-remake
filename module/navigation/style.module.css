@@ -2,9 +2,9 @@
     position: absolute;
     transition: 0.3s;
     top: -200px;
-    background: white;
     width: 100%;
     z-index: 99;
+    background: white;
 }
 .navIn {
     display: block;
@@ -28,9 +28,42 @@
     border: 1px solid #ccc;
     border-radius: 2px;
     display: block;
-    padding: 13px 0;
+    padding: 15px 0;
     font-weight: 600;
 }
 .navbar > li > a:hover {
     border: 1px solid #000000;
+}
+
+@media (min-width: 850px) {
+    .nav {
+        top: 0;
+        height: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 380px;
+        z-index: 101;
+    }
+    .navbar {
+        flex-wrap: nowrap;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .navbar > li {
+        width: none;
+        padding: 0px;
+    }
+    .navbar > li > a {
+        transition: 0.1s border;
+        height: 55px;
+        border: none;
+        font-weight: 500;
+        padding: 18px 0;
+        border-bottom: 5px solid #30303000;
+    }
+    .navbar > li > a:hover {
+        border: none;
+        border-bottom: 5px solid #303030;
+    }
 }

@@ -1,19 +1,19 @@
 import React from 'react';
 import style from "./style.module.css";
-import Link from 'next/link';
+import CustomLink from '../../components/custom-link';
 
-const Navigation = ({ isNavIn }) => {
+const Navigation = ({ isNavIn, handleClick }) => {
     return (
         <nav className={`${style.nav} ${isNavIn && style.navIn}`}>
             <ul className={style.navbar}>
                 <li>
-                    <Link href="/produits">Produits</Link>
+                    <CustomLink href="/produits" handleClick={handleClick}>Produits</CustomLink>
                 </li>
                 <li>
-                    <Link href="/communaute">Communauté</Link>
+                    <CustomLink href="/communaute" handleClick={handleClick}>Communauté</CustomLink>
                 </li>
                 <li>
-                    <Link href="/assistance">Assistance</Link>
+                    <CustomLink href="/assistance" handleClick={handleClick}>Assistance</CustomLink>
                 </li>
             </ul>
         </nav>
