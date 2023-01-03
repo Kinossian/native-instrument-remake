@@ -1,0 +1,18 @@
+.promotionsContainer {
+    background: #edeff0;
+    padding: 20px 1px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+@media (min-width: 768px) {
+    .promotionsContainer {
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+@media (min-width: 1200px) {
+    .promotionsContainer {
+        padding: 0 90px;
+    }
+}

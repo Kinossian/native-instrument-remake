@@ -1,10 +1,13 @@
 import React from 'react';
+import BannierePub from '../components/banniere-pub';
+import PromotionsContainer from '../module/promotions-container';
 
 const index = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <>
+      <BannierePub />
+      <PromotionsContainer />
+    </>
   );
 };
 

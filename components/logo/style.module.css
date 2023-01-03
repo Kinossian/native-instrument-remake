@@ -1,0 +1,21 @@
+.logoContainer {
+    width: 42px;
+    height: 30px;
+    margin-left: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.logo {
+}
+
+@media (min-width: 850px) {
+    .logoContainer {
+        width: 195px;
+    }
+}
+
+@media (min-width: 991px) {
+    .logoContainer {
+        margin-left: 35px;
+    }
+}
