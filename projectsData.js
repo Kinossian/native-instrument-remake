@@ -1,0 +1,60 @@
+export const data = {
+    articles: [
+        {
+            id: 1,
+            title: "CADEAUX DE NOËL",
+            content: "Profite de 25,00 € à dépenser sur n'importe quel logiciel, et télécharge HYPHA gratuitement.",
+            img: "/img/cadeaunoel.jpeg",
+            link: "/",
+        },
+        {
+            id: 2,
+            title: "BOROUGH CHOPS",
+            content: "Raw, golden-era hip hop",
+            img: "/img/borough.jpeg",
+            link: "/",
+        },
+        {
+            id: 3,
+            title: "DÉCOUVRE KOMPLETE 14",
+            content: "Avec KONTAKT 7, OZONE 10 STANDARD, PLAYBOX, PIANO COLORS, CHOIR: OMNIA, et bien d’autres choses encore.",
+            img: "/img/komplet14.jpeg",
+            link: "/",
+        },
+        {
+            id: 4,
+            title: "KONTAKT 7 EST SORTI",
+            content: "Nouvelle Factory Library. Nouvel explorateur. Nouveau chapitre.",
+            img: "/img/kontakt7.jpeg",
+            link: "/",
+        },
+        {
+            id: 5,
+            title: "CYBER SEASON",
+            content: "Des réductions monstres sur les matériel et les collections.",
+            img: "/img/cyber.jpeg",
+            link: "/",
+        },
+        {
+            id: 6,
+            title: "DEMANDE TON REMBOURSEMENT ICI",
+            content: "Tu vis en Europe et tu as acheté du matériel NI éligible pendant les promos Cyber Season ?",
+            img: "/img/demande.jpeg",
+            link: "/",
+        },
+        {
+            id: 7,
+            title: "VOICI KOMPLETE NOW",
+            content: "Nos meilleurs outils de production pour 9,99 € par mois. Essaie-le maintenant!",
+            img: "/img/voici.jpeg",
+            link: "/",
+        },
+        {
+            id: 8,
+            title: "LES CARTES CADEAUX DE NI SONT À PRÉSENT DISPONIBLES",
+            content: "Fais plaisir aux créateurs(trices) de musiques et DJs de ton entourage",
+            img: "/img/lescartescadeau.jpeg",
+            link: "/",
+        },
+    ],
+};

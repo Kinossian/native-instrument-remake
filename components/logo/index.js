@@ -1,11 +1,18 @@
 import React from 'react';
 import style from "./style.module.css";
 import Link from 'next/link';
+import Image from 'next/image';
+import logo from "/public/logo.svg";
+
 const Logo = () => {
     return (
         <Link href="/">
             <div className={style.logoContainer}>
-                <img className={style.logo} src="logoni.svg" alt="logo du site" />
+                <Image
+                    className={style.logo}
+                    src={logo}
+                    alt="logo du site"
+                />
             </div>
         </Link>
     );

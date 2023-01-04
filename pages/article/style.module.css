@@ -1,0 +1,25 @@
+.articlePage {
+    height: 100%;
+    /* margin: 20px 10px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.imgContainer {
+    width: 100%;
+    overflow: hidden;
+}
+.imgContainer > img {
+    width: 150%;
+    height: 150%;
+    transform: translate(-16%, -9%);
+    object-fit: cover;
+}
+.articlePage > a > h3 {
+    font-size: 1.5rem;
+}
+.articlePage > a > p {
+    font-size: 1.2rem;
+    line-height: 35px;
+}
