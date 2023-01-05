@@ -53,14 +53,18 @@
     .navbar > li {
         width: none;
         padding: 0px;
+        height: 100%;
     }
     .navbar > li > a {
         transition: 0.1s border;
-        height: 55px;
+        height: 100%;
         border: none;
         font-weight: 500;
         padding: 18px 0;
-        border-bottom: 5px solid #30303000;
+        border-bottom: 4px solid #30303000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .navbar > li > a:hover {
         border: none;

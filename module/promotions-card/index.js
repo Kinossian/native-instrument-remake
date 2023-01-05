@@ -9,14 +9,13 @@ const PromotionsCard = ({ article }) => {
             href="/article/[id]" as={`/article/${article.id}`}
             className={style.promotionsCard}>
             <Image
-                src={`${path}${article.img}`}
+                src={`${path}${article.imgCard}`}
                 alt={article.title}
                 width={400}
                 height={400}
             />
             <div>
-
-                <h3>{article.title}</h3>
+                <h3>{article.titleCard}</h3>
                 <p>{article.content}</p>
             </div>
         </Link>
