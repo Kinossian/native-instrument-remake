@@ -5,6 +5,7 @@
     grid-template-rows: 1fr auto;
     text-align: center;
     gap: 10px;
+    transition: 0.2s;
 }
 .promotionsCard > img {
     width: 100%;
@@ -24,5 +25,8 @@
 @media (min-width: 768px) {
     .promotionsCard {
         grid-template-rows: 27vw auto;
+    }
+    .promotionsCard:hover {
+        scale: 1.1;
     }
 }

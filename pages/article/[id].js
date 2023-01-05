@@ -4,8 +4,6 @@ import style from "./style.module.css";
 import { path } from "../../config/path";
 import Image from "next/image";
 
-
-
 const article = ({ article }) => {
     return (
         <div className={style.articlePage}>
@@ -14,8 +12,8 @@ const article = ({ article }) => {
                     <Image
                         src={`${path}${article.img}`}
                         alt={article.title}
-                        width={400}
-                        height={400}
+                        width={10000}
+                        height={10000}
                     />
                 </div>
                 <h3>{article.title}</h3>
