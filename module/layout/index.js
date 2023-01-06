@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import Header from '../header';
-import Navigation from '../navigation';
+import NavigationWeb from '../navigation-web';
 
 const Layout = ({ children }) => {
     const [isNavIn, setIsNavIn] = useState(false);
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
                 handleClick={handleClick}
                 isNavIn={isNavIn}
             />
-            <Navigation
+            <NavigationWeb
                 isNavIn={isNavIn}
                 handleClick={handleClick}
             />

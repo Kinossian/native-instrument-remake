@@ -1,14 +1,16 @@
 .promotionsContainer {
-    background: #edeff0;
-    padding: 20px 1px;
-    width: 100%;
+    margin-top: 40px;
+    background: var(--white);
     display: grid;
-    grid-template-columns: 100%;
+    gap: 30px;
+    justify-content: center;
+    padding: 0 5px;
+    overflow: hidden;
 }
 
 @media (min-width: 768px) {
     .promotionsContainer {
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 45%);
     }
 }
 @media (min-width: 1200px) {

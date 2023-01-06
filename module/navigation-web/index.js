@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./style.module.css";
 import CustomLink from '../../components/custom-link';
 
-const Navigation = ({ isNavIn, handleClick }) => {
+const NavigationWeb = ({ isNavIn, handleClick }) => {
     return (
         <nav className={`${style.nav} ${isNavIn && style.navIn}`}>
             <ul className={style.navbar}>
@@ -20,4 +20,4 @@ const Navigation = ({ isNavIn, handleClick }) => {
     );
 };
 
-export default Navigation;
+export default NavigationWeb;

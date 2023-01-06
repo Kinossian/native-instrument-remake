@@ -1,0 +1,63 @@
+export const data = {
+    articles: [
+        {
+            id: 1,
+            titleCard: "CADEAUX DE NOËL",
+            content: "Profite de 25,00 € à dépenser sur n'importe quel logiciel, et télécharge HYPHA gratuitement.",
+            imgCard: "/img/cadeaunoel.jpeg",
+            link: "/",
+        },
+        {
+            id: 2,
+            titleCard: "BOROUGH CHOPS",
+            content: "Raw, golden-era hip hop",
+            imgCard: "/img/borough.jpeg",
+            link: "/",
+        },
+        {
+            id: 3,
+            titleCard: "DÉCOUVRE KOMPLETE 14",
+            content: "Avec KONTAKT 7, OZONE 10 STANDARD, PLAYBOX, PIANO COLORS, CHOIR: OMNIA, et bien d’autres choses encore.",
+            imgCard: "/img/komplet14.jpeg",
+            link: "/",
+        },
+        {
+            id: 4,
+            titleArticle: "KONTAKT 7",
+            titleCard: "KONTAKT 7 EST SORTI",
+            content: "Nouvelle Factory Library. Nouvel explorateur. Nouveau chapitre.",
+            imgCard: "/img/kontakt7.jpeg",
+            imgArticleBannier: "/img/kontakt7articlebanner.jpeg",
+            imgArticleBannierMobile: "/img/kontak7bannierarticlemobile.jpeg",
+            link: "/",
+        },
+        {
+            id: 5,
+            titleCard: "CYBER SEASON",
+            content: "Des réductions monstres sur les matériel et les collections.",
+            imgCard: "/img/cyber.jpeg",
+            link: "/",
+        },
+        {
+            id: 6,
+            titleCard: "DEMANDE TON REMBOURSEMENT ICI",
+            content: "Tu vis en Europe et tu as acheté du matériel NI éligible pendant les promos Cyber Season ?",
+            imgCard: "/img/demande.jpeg",
+            link: "/",
+        },
+        {
+            id: 7,
+            titleCard: "VOICI KOMPLETE NOW",
+            content: "Nos meilleurs outils de production pour 9,99 € par mois. Essaie-le maintenant!",
+            imgCard: "/img/voici.jpeg",
+            link: "/",
+        },
+        {
+            id: 8,
+            titleCard: "LES CARTES CADEAUX DE NI SONT À PRÉSENT DISPONIBLES",
+            content: "Fais plaisir aux créateurs(trices) de musiques et DJs de ton entourage",
+            imgCard: "/img/lescartescadeau.jpeg",
+            link: "/",
+        },
+    ],
+};
