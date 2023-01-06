@@ -8,3 +8,9 @@
     z-index: 100;
     background: #ffffff;
 }
+@media (min-width: 850px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

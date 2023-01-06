@@ -16,6 +16,7 @@
 .priceContainer {
     display: flex;
     flex-direction: column;
+    font-weight: 100;
 }
 .priceContainer > p:nth-child(1) {
     font-size: 1.8rem;

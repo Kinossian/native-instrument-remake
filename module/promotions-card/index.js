@@ -1,22 +1,24 @@
 import Link from "next/link";
 import style from "./style.module.css";
 import Image from "next/image";
-import { path } from "../../config/path";
+import { data } from "../../projectsData";
+
 
 const PromotionsCard = ({ article }) => {
+
     return (
         <Link
             href="/article/[id]" as={`/article/${article.id}`}
             className={style.promotionsCard}>
             <Image
-                src={`${path}${article.imgCard}`}
-                alt={article.title}
+                src={article.teaser.image}
+                alt={article.teaser.title}
                 width={400}
                 height={400}
             />
             <div>
-                <h3>{article.titleCard}</h3>
-                <p>{article.content}</p>
+                <h3>{article.teaser.title}</h3>
+                <p>{article.teaser.description}</p>
             </div>
         </Link>
     );

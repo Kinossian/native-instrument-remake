@@ -33,8 +33,6 @@
     display: none;
 }
 .provi {
-    background-color: black;
-    color: var(--white);
     padding: 100px 10%;
 }
 @media (max-width: 480px) {
