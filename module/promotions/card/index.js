@@ -1,7 +1,6 @@
 import Link from "next/link";
 import style from "./style.module.css";
 import Image from "next/image";
-import { data } from "../../projectsData";
 
 
 const PromotionsCard = ({ article }) => {

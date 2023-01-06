@@ -6,3 +6,10 @@
     font-size: 0.8rem;
     margin-right: 30px;
 }
+.loginCardSearch > li {
+    transition: 0.2s;
+}
+.loginCardSearch > li:hover {
+    color: #3e8cbb;
+    cursor: pointer;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import style from "./style.module.css";
-import CustomLink from '../../components/custom-link';
+import CustomLink from '../../../../components/custom-link';
+
 
 const NavigationWeb = ({ isNavIn, handleClick }) => {
     return (

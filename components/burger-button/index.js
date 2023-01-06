@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import style from "./style.module.css";
 
-const BurgerMenu = ({ onClick, isNavIn, title, color }) => {
+const BurgerButton = ({ onClick, isNavIn, title, color }) => {
     const handleClick = useCallback(onClick, [onClick]);
 
     return (
@@ -27,4 +27,4 @@ const BurgerMenu = ({ onClick, isNavIn, title, color }) => {
     );
 };
 
-export default BurgerMenu;
+export default BurgerButton;

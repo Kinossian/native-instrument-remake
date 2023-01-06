@@ -1,6 +1,6 @@
 import style from "./style.module.css";
-import PromotionsCard from "../promotions-card";
-import { data } from "../../projectsData";
+import PromotionsCard from "../card";
+import { data } from "../../../projectsData";
 
 
 const PromotionsContainer = () => {

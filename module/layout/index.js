@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import Header from '../header';
+import HeaderWeb from './header-web/header';
 
 const Layout = ({ children }) => {
     const [isNavIn, setIsNavIn] = useState(false);
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     }, [isNavIn]);
     return (
         <>
-            <Header
+            <HeaderWeb
                 handleClick={handleClick}
                 isNavIn={isNavIn}
             />

@@ -19,7 +19,7 @@
 .promotionsCard > div > p {
     padding: 1px 20px;
     font-size: 1.3em;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 30px;
 }
 @media (min-width: 768px) {

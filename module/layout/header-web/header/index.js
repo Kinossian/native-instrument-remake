@@ -1,10 +1,11 @@
 import React from 'react';
 import style from "./style.module.css";
-import Logo from '../../components/logo';
-import ButtonMenu from '../../components/burger-menu';
+import Logo from '../../../../components/logo';
+import BurgerMenu from '../../../../components/burger-button';
 import LoginCardSearch from '../login-card-search';
 import logo from "/public/logo.svg";
 import NavigationWeb from '../navigation-web';
+
 
 
 
@@ -17,7 +18,7 @@ const Header = ({ handleClick, isNavIn }) => {
                 handleClick={handleClick}
             />
             <LoginCardSearch />
-            <ButtonMenu
+            <BurgerMenu
                 onClick={handleClick}
                 isNavIn={isNavIn}
                 title="MENU"

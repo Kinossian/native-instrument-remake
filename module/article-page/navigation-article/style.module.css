@@ -1,0 +1,67 @@
+.menu {
+    position: absolute;
+    top: 51px;
+    right: -300px;
+    transition: 0.3s;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2a2d2f;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 100;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 4px;
+}
+.menuIn {
+    top: 51px;
+    right: 0;
+}
+
+.menu > li {
+    transition: 0.2s;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.menu > li:hover {
+    background-color: var(--blueGrey);
+}
+@media (min-width: 768px) {
+    .menu {
+        width: 100%;
+        position: initial;
+        grid-column: 2;
+        grid-row: 1;
+        flex-direction: row;
+        align-items: center;
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content: start;
+        background: inherit;
+        height: 100%;
+        margin-bottom: 0;
+        margin-left: 30px;
+    }
+    .menu > li {
+        grid-row: 1;
+        height: 100%;
+        font-size: 1rem;
+        font-weight: 100;
+        border-top: 4px solid #00000000;
+        border-bottom: 4px solid #00000000;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .menu > li:hover {
+        cursor: pointer;
+        background: inherit;
+        border-top: 4px solid #00000000;
+        border-bottom: 4px solid var(--blueGrey);
+    }
+}

@@ -30,6 +30,7 @@
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 6vw;
+    font-weight: 800;
 }
 
 .bannierDesktop {
@@ -44,6 +45,7 @@
     line-height: 0;
     justify-self: start;
     padding-left: 15px;
+    font-weight: 700;
 }
 .headerArticlePage > button {
     border: none;
@@ -52,8 +54,9 @@
 @media (min-width: 768px) {
     .headerArticlePage {
         grid-template-rows: 65px;
-        grid-template-columns: 0.6fr 1fr auto;
+        grid-template-columns: 155px 1fr auto;
         padding: 0 20px;
+        justify-content: space-between;
     }
     .headerArticlePage h1 {
         grid-column: 1;

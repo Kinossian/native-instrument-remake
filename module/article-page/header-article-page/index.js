@@ -1,8 +1,8 @@
 import React from 'react';
 import style from "./style.module.css";
 import NavigationArticle from '../navigation-article';
-import BurgerMenu from '../../components/burger-menu';
-import PriceBuy from "../../module/price-buy";
+import BurgerButton from '../../../components/burger-button';
+import PriceBuy from "../price-buy";
 import Image from "next/image";
 
 
@@ -36,7 +36,7 @@ const HeaderArticlePage = ({ handleClick, isMenuIn, article }) => {
                     handleClick={handleClick}
                     article={article}
                 />
-                <BurgerMenu
+                <BurgerButton
                     isNavIn={isMenuIn}
                     onClick={handleClick}
                     color="#edeff0"
