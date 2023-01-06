@@ -1,7 +1,7 @@
 import BannierePub from '../components/banniere-pub';
 import PromotionsContainer from '../module/promotions-container';
 
-const index = () => {
+const Index = () => {
   return (
     <>
       <BannierePub />
@@ -10,5 +10,5 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
 

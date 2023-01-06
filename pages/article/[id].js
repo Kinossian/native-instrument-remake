@@ -5,7 +5,7 @@ import Image from "next/image";
 import HeaderArticlePage from "../../module/header-article-page";
 import { useCallback, useState } from "react";
 
-const article = ({ article }) => {
+const Article = ({ article }) => {
     const [isMenuIn, setIsMenuIn] = useState(false);
 
     const handleClick = useCallback(() => {
@@ -43,7 +43,7 @@ const article = ({ article }) => {
     );
 };
 
-export default article;
+export default Article;
 
 export const getStaticProps = (context) => {
     const filtered = data.articles.filter(
