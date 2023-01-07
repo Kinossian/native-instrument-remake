@@ -1,4 +1,4 @@
-import ButtonCustom from "../../../components/button-custom";
+import ButtonCustom from "../../../../components/button-custom";
 import style from "./style.module.css";
 
 const PriceBuy = ({ article }) => {

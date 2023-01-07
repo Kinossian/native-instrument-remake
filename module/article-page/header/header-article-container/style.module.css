@@ -60,6 +60,7 @@
     }
     .headerArticlePage h1 {
         grid-column: 1;
+        letter-spacing: 0px;
     }
     .headerArticlePage > button {
         border: none;

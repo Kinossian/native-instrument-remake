@@ -1,4 +1,4 @@
-import HeaderArticlePage from "../../module/article-page/header-article-page";
+import HeaderArticlePage from "../../module/article-page/header/header-article-container";
 import { data } from "../../projectsData";
 import style from "./style.module.css";
 import { useCallback, useState } from "react";
@@ -9,9 +9,6 @@ const Article = ({ article }) => {
         setIsMenuIn(!isMenuIn);
     }, [isMenuIn]);
 
-
-
-    console.log(article);
     return (
         <div className={style.articlePage}>
             {
@@ -30,8 +27,10 @@ const Article = ({ article }) => {
         </div>
     );
 };
-
 export default Article;
+
+
+
 
 export const getStaticProps = (context) => {
     const filtered = data.articles.filter(

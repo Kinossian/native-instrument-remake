@@ -3,7 +3,7 @@
     top: 51px;
     right: -300px;
     transition: 0.3s;
-    width: 200px;
+    width: 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,7 +13,7 @@
     font-weight: 100;
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 4px;
+    padding-bottom: 4px;
 }
 .menuIn {
     top: 51px;
@@ -46,17 +46,19 @@
         height: 100%;
         margin-bottom: 0;
         margin-left: 30px;
+        padding-bottom: 0px;
     }
     .menu > li {
         grid-row: 1;
         height: 100%;
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 100;
         border-top: 4px solid #00000000;
         border-bottom: 4px solid #00000000;
         align-items: center;
         justify-content: center;
         margin-right: 20px;
+        padding: 0;
     }
     .menu > li:hover {
         cursor: pointer;

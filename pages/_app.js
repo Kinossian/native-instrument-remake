@@ -1,5 +1,5 @@
 import Layout from '../module/layout';
-import '../styles/globals.css';
+import './_app.css';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 

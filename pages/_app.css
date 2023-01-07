@@ -17,7 +17,9 @@ body {
     /* font-family: "Times New Roman", Times, serif; */
     /* font-family: sans-serif; */
     /* font-family: "Nunito", sans-serif; */
+    font-family: "JetBrains Mono";
     background-color: var(--white);
+    letter-spacing: -1px;
     /* background-color: black; */
 }
 a {

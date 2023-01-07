@@ -1,7 +1,7 @@
 import React from 'react';
 import style from "./style.module.css";
 import NavigationArticle from '../navigation-article';
-import BurgerButton from '../../../components/burger-button';
+import BurgerButton from '../../../../components/burger-button';
 import PriceBuy from "../price-buy";
 import Image from "next/image";
 

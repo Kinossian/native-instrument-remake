@@ -1,5 +1,6 @@
 import BannierePub from '../components/banniere-pub';
-import PromotionsContainer from '../module/promotions/container';
+import PromotionsContainer from '../module/home-promotions-section/container';
+
 
 const Index = () => {
   return (

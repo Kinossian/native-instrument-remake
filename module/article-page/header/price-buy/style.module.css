@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     font-weight: 100;
+    line-height: 40px;
 }
 .price {
     font-size: 1.7rem;
@@ -51,7 +52,7 @@
 @media (min-width: 768px) {
     .priceBuyContainer {
         z-index: 3000;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 0.7fr;
         color: var(--white);
         justify-self: center;
         grid-column: 3;
@@ -66,6 +67,8 @@
         justify-self: end;
         display: flex;
         align-items: flex-end;
+        line-height: 26px;
+        padding-top: 12px;
     }
     .price {
         font-size: 1rem;
