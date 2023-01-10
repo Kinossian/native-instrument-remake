@@ -1,0 +1,26 @@
+.cgv {
+    max-width: 940px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: center;
+}
+.cgv h4 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+.cgv h5 {
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+.cgv p {
+    font-weight: 100;
+}
+@media (max-width: 945px) {
+    .cgv {
+        max-width: 640px;
+        padding: 0 20px;
+    }
+}

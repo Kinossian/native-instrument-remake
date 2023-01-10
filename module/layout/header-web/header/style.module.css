@@ -8,7 +8,7 @@
     z-index: 100;
     background: #ffffff;
 }
-@media (min-width: 850px) {
+@media (min-width: 1110px) {
     .header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

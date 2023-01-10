@@ -10,11 +10,11 @@ const NavigationWeb = ({ isNavIn, handleClick }) => {
                 <li>
                     <CustomLink href="/produits" handleClick={handleClick}>Produits</CustomLink>
                 </li>
-                <li>
-                    <CustomLink href="/communaute" handleClick={handleClick}>Communauté</CustomLink>
+                <li className={style.inactive}>
+                    <CustomLink href="/" handleClick={handleClick}>Communauté</CustomLink>
                 </li>
-                <li>
-                    <CustomLink href="/assistance" handleClick={handleClick}>Assistance</CustomLink>
+                <li className={style.inactive}>
+                    <CustomLink href="/" handleClick={handleClick}>Assistance</CustomLink>
                 </li>
             </ul>
         </nav>

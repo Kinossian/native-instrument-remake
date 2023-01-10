@@ -1,0 +1,53 @@
+.imagePicture {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.imagePicture button {
+    position: absolute;
+    border: none;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--white);
+    background: inherit;
+    font-size: 2rem;
+    transition: 0.2s;
+}
+.imagePicture button:hover {
+    opacity: 0.5;
+}
+.imagePicture button:active {
+    margin-top: 5px;
+}
+.imagePicture button:nth-child(1) {
+    left: 20px;
+}
+.imagePicture button:nth-last-child(1) {
+    right: 20px;
+}
+.imgContainer {
+    max-height: 473px;
+    width: 100%;
+}
+.imgContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.description {
+    padding: 0 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    max-width: 950px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.PageNumber {
+    margin: 20px 0;
+    border: 1px solid var(--white);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+}

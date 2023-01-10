@@ -6,11 +6,16 @@
     text-align: center;
     gap: 10px;
     transition: 0.2s;
+    overflow: hidden;
 }
-.promotionsCard > img {
+.imgContainer {
+    overflow: hidden;
+}
+.imgContainer > img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+    transition: 0.2s;
 }
 .promotionsCard > div > h3 {
     padding: 1px 50px;
@@ -18,7 +23,7 @@
 }
 .promotionsCard > div > p {
     padding: 1px 20px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     font-weight: 300;
     line-height: 30px;
 }
@@ -26,7 +31,8 @@
     .promotionsCard {
         grid-template-rows: 27vw auto;
     }
-    .promotionsCard:hover {
+    .imgContainer > img:hover {
         scale: 1.1;
+        /* border-radius: 20px; */
     }
 }

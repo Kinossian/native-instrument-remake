@@ -1,0 +1,29 @@
+.sectionWithOutPicture {
+}
+
+.sectionWithOutPicture h3 {
+    padding: 40px 20px 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+}
+.sectionWithOutPicture p {
+    padding: 10px 20px 40px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+@media (min-width: 768px) {
+    .sectionWithOutPicture {
+        padding: 0 50px;
+    }
+}
+@media (min-width: 992px) {
+    .sectionWithOutPicture {
+        padding: 50px 20px;
+    }
+    .sectionWithOutPicture h3 {
+        font-size: 2.8rem;
+    }
+}

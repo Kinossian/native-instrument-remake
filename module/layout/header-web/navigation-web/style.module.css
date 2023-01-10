@@ -36,8 +36,10 @@
 .navbar > li > a:hover {
     border: 1px solid #000000;
 }
-
-@media (min-width: 850px) {
+.inactive {
+    opacity: 0.1;
+}
+@media (min-width: 1110px) {
     .nav {
         position: relative;
         top: 0;

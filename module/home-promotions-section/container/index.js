@@ -3,18 +3,17 @@ import PromotionsCard from "../card";
 import { data } from "../../../projectsData";
 
 
-const PromotionsContainer = () => {
-    const articles = data.articles;
+const HomePromotionsContainer = () => {
     return (
         <div className={style.promotionsContainer}>
             {
-                articles.map((article) => (
-                    <PromotionsCard key={article.id} article={article} />
+                data.map((item) => (
+                    item.promotion &&
+                    <PromotionsCard key={item.id} item={item} />
                 ))
             }
         </div>
     );
 };
 
-export default PromotionsContainer;
-
+export default HomePromotionsContainer;

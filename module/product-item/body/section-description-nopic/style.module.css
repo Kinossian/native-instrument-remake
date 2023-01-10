@@ -1,0 +1,41 @@
+.sectionDescription {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.descriptionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    text-align: center;
+}
+.descriptionContainer h3 {
+    padding: 40px 10px 0;
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+}
+.descriptionContainer p {
+    padding: 10px 10px 10px;
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 2rem;
+    direction: initial;
+}
+
+@media (min-width: 768px) {
+    .descriptionContainer {
+        padding: 0 50px;
+    }
+}
+@media (min-width: 992px) {
+    .descriptionContainer {
+        /* border: 1px solid red; */
+        /* max-width: 450px; */
+        /* padding: 1000px; */
+        /* justify-self: end; */
+        /* text-align: justify; */
+    }
+}

@@ -3,24 +3,25 @@ import style from "./style.module.css";
 import Image from "next/image";
 
 
-const PromotionsCard = ({ article }) => {
-
+const PromotionsCard = ({ item }) => {
     return (
         <Link
-            href="/article/[id]" as={`/article/${article.id}`}
+            href={`/product-item/[id]`} as={`/product-item/${item.id}`}
             className={style.promotionsCard}>
-            <Image
-                src={article.teaser.image}
-                alt={article.teaser.title}
-                width={400}
-                height={400}
-            />
+            <div className={style.imgContainer}>
+                <Image
+                    src={item.teaser.image}
+                    alt={item.teaser.title}
+                    width={400}
+                    height={400}
+                />
+            </div>
             <div>
-                <h3>{article.teaser.title}</h3>
-                <p>{article.teaser.description}</p>
+                <h3>{item.teaser.title}</h3>
+                <p>{item.teaser.description}</p>
             </div>
         </Link>
     );
 };
 
-export default PromotionsCard;
+export default PromotionsCard;;;

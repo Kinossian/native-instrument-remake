@@ -13,3 +13,6 @@
     color: #3e8cbb;
     cursor: pointer;
 }
+.inactive {
+    opacity: 0.1;
+}

@@ -5,6 +5,7 @@
     text-align: center;
     z-index: 3000;
     overflow: hidden;
+    background: white;
 }
 .imgContainer {
     display: flex;
