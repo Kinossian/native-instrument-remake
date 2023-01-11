@@ -1,9 +1,9 @@
 export const data = [
     {
+        tag: ["apercu", "komplete", "guitare", "gratuit"],
         promotion: true,
         id: 1,
-        price: 99,
-        teaser: {
+        price: 99, teaser: {
             title: "SESSION GUITARIST – PICKED ACOUSTIC",
             description: "Une guitare acoustique vintage à cordes en acier jouée par un guitariste de studio pro, avec 194 patterns et un second instrument pour créer des mélodies.",
             image: "https://www.native-instruments.com/typo3temp/pics/img-packshot-picked-acoustic-productfinder-56bbb3f304fe48de815f0acfc7a82aef-d.jpg"
@@ -89,6 +89,7 @@ export const data = [
         },
     },
     {
+        tag: ["apercu", "komplete", "sampleurs"],
         promotion: true,
         id: 2,
         price: 199,
@@ -206,6 +207,7 @@ export const data = [
         },
     },
     {
+        tag: ["apercu", "komplete", "voix", "nouveauté"],
         promotion: true,
         id: 3,
         price: 399,
@@ -323,6 +325,7 @@ export const data = [
         },
     },
     {
+        tag: ["apercu", "sampleurs"],
         promotion: true,
         id: 4,
         price: 49,
@@ -393,6 +396,7 @@ export const data = [
     },
     {
         promotion: true,
+        tag: ["apercu", "komplete", "guitare"],
         id: 5,
         price: 99,
         teaser: {
@@ -497,6 +501,7 @@ export const data = [
     },
     {
         promotion: true,
+        tag: ["apercu", "komplete", "cordes"],
         id: 6,
         price: 299,
         priceForUpdate: 199,

@@ -1,0 +1,54 @@
+.OptionSearchLevel1Container {
+    background-color: #2a2c2e;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.radioContainer {
+    display: flex;
+    flex-direction: row;
+}
+.radioContainer > input {
+    display: none;
+}
+.radioContainer label {
+    padding: 9px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.radioContainer label span {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.radioContainer > input:checked + label {
+    color: var(--blueSkyHover);
+}
+@media (min-width: 768px) {
+    .OptionSearchLevel1Container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .radioContainer {
+        align-self: baseline;
+    }
+    .radioContainer label {
+        /* max-width: 110px; */
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+        gap: 5px;
+        align-self: center;
+    }
+    .radioContainer span {
+        text-align: center;
+    }
+}

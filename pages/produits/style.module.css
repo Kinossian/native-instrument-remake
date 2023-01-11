@@ -1,0 +1,9 @@
+.OptionSearchLevel2Container {
+    background-color: #3a3d40;
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
