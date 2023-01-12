@@ -6,7 +6,7 @@ import LoginCardSearch from '../login-card-search';
 import logo from "/public/logo.svg";
 import NavigationWeb from '../navigation-web';
 
-const Header = ({ handleClick, isNavIn, setQuery, search }) => {
+const Header = ({ handleClick, isNavIn }) => {
 
     return (
         <header className={style.header}>
@@ -15,7 +15,7 @@ const Header = ({ handleClick, isNavIn, setQuery, search }) => {
                 isNavIn={isNavIn}
                 handleClick={handleClick}
             />
-            <LoginCardSearch setQuery={setQuery} search={search} />
+            <LoginCardSearch />
             <BurgerMenu
                 onClick={handleClick}
                 isNavIn={isNavIn}

@@ -2,15 +2,7 @@ import React, { useCallback } from 'react';
 import Link from 'next/link';
 import style from "./style.module.css";
 
-const LoginCardSearch = ({ setQuery, search }) => {
-    const handleChange = useCallback(setQuery, [setQuery]);
-    const searching = useCallback(search, [search]);
-
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log("kjk");
-    }
-
+const LoginCardSearch = () => {
     return (
         <div className={style.loginCardSearch}>
             <div className={style.inactive}>
@@ -19,11 +11,10 @@ const LoginCardSearch = ({ setQuery, search }) => {
             <div>
                 <Link href="/basket" className={style.basketLogo}><i className="fa-solid fa-cart-shopping"></i></Link>
             </div>
-            <form onSubmit={handleSubmit} className={style.searchBarContainer} onChange={searching}>
+            <div className={style.searchBarContainer} >
                 <i className="fa-solid fa-magnifying-glass"></i>
-                <input className={style.checkbox} type="checkbox" />
-                <input onChange={handleChange} className={style.searchBar} type="text" placeholder='Recherche Produit' />
-            </form>
+                <input className={style.searchBar} type="text" placeholder='Recherche Produit' />
+            </div>
         </div>
     );
 };
