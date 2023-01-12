@@ -6,7 +6,7 @@ import { data } from "../../projectsData";
 import ResultContainer from '../../module/product-page/result/container';
 
 
-const Produits = () => {
+const Produits = ({ search }) => {
     let [radioArrayLvl1, setRadioArrayLvl1] = useState(["Gratuit", "Nouveauté"]);
     let [product, setProduct] = useState(data.filter((prod) => prod.tag.includes("apercu")));
 
@@ -23,6 +23,7 @@ const Produits = () => {
     const radioLvl2 = (e) => {
         let queryRadio = e.currentTarget.value;
         setProduct(data.filter((prod) => prod.tag.includes(queryRadio.toLowerCase())));
+
     };
 
     return (
@@ -33,7 +34,7 @@ const Produits = () => {
                     <OptionSearchLevel2 onClick={radioLvl2} key={index} radio={radio} />
                 ))}
             </div>
-            <ResultContainer data={product} />
+            <ResultContainer data={search.length >= 1 ? search : product} />
         </div>
     );
 };

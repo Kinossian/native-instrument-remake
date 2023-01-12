@@ -3,7 +3,6 @@ import style from "./style.module.css";
 import Link from "next/link";
 
 const ResultCard = ({ product }) => {
-    console.log(product);
     return (
         <Link
             href={`/product-item/[id]`} as={`/product-item/${product.id}`}>
