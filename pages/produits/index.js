@@ -7,7 +7,7 @@ import ResultContainer from '../../module/product-page/result/container';
 
 
 const Produits = () => {
-    let [radioArrayLvl1, setRadioArrayLvl1] = useState(["Offres", "Gratuit", "Nouveauté"]);
+    let [radioArrayLvl1, setRadioArrayLvl1] = useState(["Gratuit", "Nouveauté"]);
     let [product, setProduct] = useState(data.filter((prod) => prod.tag.includes("apercu")));
 
     const radioLvl1 = (e) => {
@@ -26,7 +26,7 @@ const Produits = () => {
     };
 
     return (
-        <div>
+        <div className={style.produitsPage}>
             <OptionSearchLevel1 onClick={radioLvl1} />
             <div className={style.OptionSearchLevel2Container}>
                 {radioArrayLvl1.map((radio, index) => (
