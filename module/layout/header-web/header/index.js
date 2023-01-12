@@ -6,10 +6,8 @@ import LoginCardSearch from '../login-card-search';
 import logo from "/public/logo.svg";
 import NavigationWeb from '../navigation-web';
 
-
-
-
 const Header = ({ handleClick, isNavIn }) => {
+
     return (
         <header className={style.header}>
             <Logo src={logo} />

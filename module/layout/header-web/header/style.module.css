@@ -8,6 +8,7 @@
     z-index: 100;
     background: #ffffff;
 }
+
 @media (min-width: 1110px) {
     .header {
         display: grid;

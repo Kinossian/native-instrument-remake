@@ -4,17 +4,18 @@ import style from "./style.module.css";
 
 const LoginCardSearch = () => {
     return (
-        <ul className={style.loginCardSearch}>
-            <li className={style.inactive}>
+        <div className={style.loginCardSearch}>
+            <div className={style.inactive}>
                 <span><i className="fa-solid fa-user"></i></span>
-            </li>
-            <li>
-                <Link href="/basket"><i className="fa-solid fa-cart-shopping"></i></Link>
-            </li>
-            <li className={style.inactive}>
-                <span><i className="fa-solid fa-magnifying-glass"></i></span>
-            </li>
-        </ul>
+            </div>
+            <div>
+                <Link href="/basket" className={style.basketLogo}><i className="fa-solid fa-cart-shopping"></i></Link>
+            </div>
+            <div className={style.searchBarContainer}>
+                <i className="fa-solid fa-magnifying-glass"></i>
+                <input className={style.searchBar} type="text" placeholder='Recherche Produit' />
+            </div>
+        </div>
     );
 };
 
