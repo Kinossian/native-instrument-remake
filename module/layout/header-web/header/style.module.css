@@ -1,0 +1,17 @@
+.header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    z-index: 100;
+    background: #ffffff;
+}
+
+@media (min-width: 1110px) {
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

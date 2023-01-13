@@ -1,14 +1,18 @@
 import BannierePub from '../components/banniere-pub';
-import PromotionsContainer from '../module/promotions-container';
+import Meta from '../components/meta';
+import HomePromotionsContainer from '../module/home-promotions-section/container';
 
-const index = () => {
+
+const Index = () => {
+
   return (
     <>
+      <Meta />
       <BannierePub />
-      <PromotionsContainer />
+      <HomePromotionsContainer />
     </>
   );
 };
 
-export default index;
+export default Index;
 

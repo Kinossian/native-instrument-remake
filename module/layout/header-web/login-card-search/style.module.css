@@ -1,0 +1,50 @@
+.loginCardSearch {
+    flex-grow: 1;
+    display: flex;
+    gap: 30px;
+    font-size: 0.8rem;
+    margin-right: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.basketLogo {
+    transition: 0.3s;
+}
+.basketLogo > i {
+    position: relative;
+    top: -100px;
+    width: 15px;
+}
+.basketLogo > i::before {
+    position: absolute;
+    top: 100px;
+}
+.basketLogo:hover,
+.loginCardSearch > i:hover {
+    cursor: pointer;
+    color: #3e8cbb;
+}
+.inactive {
+    opacity: 0.1;
+}
+
+.mobileSearchBar {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    font-size: 1rem;
+    text-align: end;
+    height: 45px;
+    text-align: start;
+    padding-left: 5px;
+}
+.mobileSearchBar:focus {
+    outline: none;
+}
+
+@media (min-width: 1120px) {
+    .mobileSearchBar {
+        width: 450px;
+    }
+}

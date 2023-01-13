@@ -1,0 +1,26 @@
+.sectionPicture {
+    display: flex;
+    /* width: 100%;
+    overflow: hidden;
+    position: relative; */
+}
+
+.sectionPicture > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.imageDesktop {
+    display: block;
+}
+.imageMobile {
+    display: none;
+}
+@media (max-width: 800px) {
+    .imageDesktop {
+        display: none;
+    }
+    .imageMobile {
+        display: block;
+    }
+}

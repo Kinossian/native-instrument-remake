@@ -1,23 +1,18 @@
 import React, { useCallback, useState } from 'react';
-import Header from '../header';
-import NavigationWeb from '../navigation-web';
+import HeaderWeb from './header-web/header';
 
 const Layout = ({ children }) => {
     const [isNavIn, setIsNavIn] = useState(false);
-
     const handleClick = useCallback(() => {
         setIsNavIn(!isNavIn);
     }, [isNavIn]);
     return (
         <>
-            <Header
+            <HeaderWeb
                 handleClick={handleClick}
                 isNavIn={isNavIn}
             />
-            <NavigationWeb
-                isNavIn={isNavIn}
-                handleClick={handleClick}
-            />
+
             <main>{children}</main>
         </>
     );

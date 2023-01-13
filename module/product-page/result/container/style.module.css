@@ -1,0 +1,20 @@
+.apercuContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 10px;
+}
+
+@media (min-width: 768px) {
+    .apercuContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin: 50px 16px;
+    }
+}
+@media (min-width: 1120px) {
+    .apercuContainer {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        margin: 50px 16px;
+    }
+}

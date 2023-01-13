@@ -1,0 +1,32 @@
+.OptionSearchLevel2Container {
+    background-color: #3a3d40;
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.radioContainer {
+    display: flex;
+    flex-direction: row;
+}
+.radioContainer > input {
+    display: none;
+}
+.radioContainer label {
+    padding: 9px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.radioContainer > input:checked + label {
+    color: var(--blueSkyHover);
+}

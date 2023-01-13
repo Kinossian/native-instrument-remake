@@ -5,6 +5,14 @@ const nextConfig = {
     domains: [
       'localhost',
     ],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.native-instruments.com',
+        port: '',
+        pathname: '/typo3temp/pics/**',
+      },
+    ],
   },
 };
 
