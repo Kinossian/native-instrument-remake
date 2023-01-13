@@ -1,8 +1,13 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useState } from 'react';
 import Link from 'next/link';
 import style from "./style.module.css";
 
 const LoginCardSearch = () => {
+    const [isSearching, setIsSearching] = useState(false);
+    const handleIsSearching = useCallback(() => {
+        setIsSearching(!isSearching);
+    }, [isSearching]);
+
     return (
         <div className={style.loginCardSearch}>
             <div className={style.inactive}>
@@ -11,10 +16,10 @@ const LoginCardSearch = () => {
             <div>
                 <Link href="/basket" className={style.basketLogo}><i className="fa-solid fa-cart-shopping"></i></Link>
             </div>
-            <div className={style.searchBarContainer} >
-                <i className="fa-solid fa-magnifying-glass"></i>
-                <input className={style.searchBar} type="text" placeholder='Recherche Produit' />
-            </div>
+            <i onClick={handleIsSearching} className="fa-solid fa-magnifying-glass"></i>
+            {isSearching &&
+                <input className={style.mobileSearchBar} type="text" placeholder='Recherche Produit' />
+            }
         </div>
     );
 };
