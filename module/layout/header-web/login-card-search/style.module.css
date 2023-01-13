@@ -10,6 +10,15 @@
 .basketLogo {
     transition: 0.3s;
 }
+.basketLogo > i {
+    position: relative;
+    top: -100px;
+    width: 15px;
+}
+.basketLogo > i::before {
+    position: absolute;
+    top: 100px;
+}
 .basketLogo:hover,
 .loginCardSearch > i:hover {
     cursor: pointer;

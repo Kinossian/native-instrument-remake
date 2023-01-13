@@ -14,7 +14,9 @@ const LoginCardSearch = () => {
                 <span><i className="fa-solid fa-user"></i></span>
             </div>
             <div>
-                <Link href="/basket" className={style.basketLogo}><i className="fa-solid fa-cart-shopping"></i></Link>
+                <Link href="/basket" className={style.basketLogo}>
+                    <i className="fa-solid fa-cart-shopping">basket</i>
+                </Link>
             </div>
             <i onClick={handleIsSearching} className="fa-solid fa-magnifying-glass"></i>
             {isSearching &&

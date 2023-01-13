@@ -10,9 +10,10 @@ const BannierePub = () => {
             <Image
                 src="https://www.native-instruments.com/typo3temp/pics/img-homepage-nks-uhe-hp-tile-l1_03-5db7103e6e81cf5305cecbbc53058b40-t.jpg"
                 alt="Pub Plugin"
-                width={1000}
-                height={1000}
+                width={400}
+                height={400}
                 className={style.ImgBannierePub}
+                priority
             />
             <Image
                 src="https://www.native-instruments.com/typo3temp/pics/img-homepage-nks-uhe-hp-tile-l1_03-5db7103e6e81cf5305cecbbc53058b40-m.jpg"
@@ -20,6 +21,7 @@ const BannierePub = () => {
                 width={400}
                 height={400}
                 className={style.ImgBannierePubSmall}
+                priority
             />
 
             <div className={style.textPubContainer}>

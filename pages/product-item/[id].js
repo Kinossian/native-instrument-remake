@@ -1,13 +1,11 @@
 import CGV from "../../components/cgv";
 import SectionDescription from "../../module/product-item/body/section-description";
-import SectionDescriptionNopic from "../../module/product-item/body/section-description-nopic";
 import HeaderArticlePage from "../../module/product-item/header/header-product-container";
 import { data } from "../../projectsData";
 import style from "./style.module.css";
 import { useCallback, useState } from "react";
 import SectionCarroussellePicture from "../../module/product-item/body/section-carrousselle-picture";
 import SectionFirst from "../../module/product-item/body/section-first";
-import SectionOnlyOnePicture from "../../module/product-item/body/section-only-one-picture";
 
 const Article = ({ product }) => {
     const _body = product.page.body;

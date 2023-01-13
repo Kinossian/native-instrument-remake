@@ -2,7 +2,6 @@ import Image from "next/image";
 import style from "./style.module.css";
 
 const SectionDescription = ({ section, odd, noPicture, vertical }) => {
-    console.log(vertical);
     return (
         <div
             className={`${style.sectionDescription} ${odd && style.odd} ${vertical && style.vertical}`}
