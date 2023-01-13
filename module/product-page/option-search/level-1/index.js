@@ -1,8 +1,14 @@
 import { useCallback } from "react";
 import style from "./style.module.css";
 
-const OptionSearchLevel1 = ({ onClick }) => {
-    const handleOnClick = useCallback(onClick, [onClick]);
+const OptionSearchLevel1 = ({ onClick, setIsOneClick }) => {
+    const handleOnClicks = useCallback(onClick, [onClick]);
+
+    function handleOnClick(e) {
+        handleOnClicks(e);
+        setIsOneClick(true);
+    }
+
 
     return (
         <>

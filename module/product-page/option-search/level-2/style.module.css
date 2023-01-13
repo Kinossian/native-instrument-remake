@@ -26,7 +26,6 @@
     font-size: 0.8rem;
     cursor: pointer;
 }
-
 .radioContainer > input:checked + label {
     color: var(--blueSkyHover);
 }
