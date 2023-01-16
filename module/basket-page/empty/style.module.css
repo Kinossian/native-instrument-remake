@@ -1,0 +1,16 @@
+.empty {
+    padding: 70px 70px;
+    display: flex;
+    align-items: center;
+}
+.empty > p {
+    font-weight: 700;
+}
+.buttonContainer {
+    height: 40px;
+    margin-left: 40px;
+}
+.buttonContainer > button {
+    font-size: 1rem !important;
+    text-transform: initial;
+}

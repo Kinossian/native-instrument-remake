@@ -24,6 +24,11 @@
     cursor: pointer;
     color: #3e8cbb;
 }
+.loginCardSearch > i {
+    opacity: 0.1;
+    cursor: default !important;
+    z-index: -1;
+}
 .inactive {
     opacity: 0.1;
 }
