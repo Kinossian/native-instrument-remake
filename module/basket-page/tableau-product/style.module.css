@@ -1,0 +1,99 @@
+.tableauProduct {
+    margin: 20px 20px 10px;
+}
+.headerTableau {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    background-color: #f0f0f0;
+    height: 34px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.headerTableau h4 {
+    margin-right: 10px;
+}
+.headerTotal {
+    justify-self: end;
+}
+.bodyTableau {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+.titleContainer {
+    display: block;
+    overflow: hidden;
+}
+.bodyTitle > h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.bodyTitle > span {
+    font-size: 0.8rem;
+    color: var(--blueSky);
+    cursor: pointer;
+}
+.bodyTableau > select {
+    border-radius: 0;
+    border-color: #cccccc;
+    font-size: 1.1rem;
+    height: 35px;
+    width: 50px;
+    margin-right: 10px;
+}
+.price {
+    display: none;
+}
+.bodyTotal {
+    justify-self: end;
+}
+.provi {
+    display: none;
+    visibility: hidden;
+}
+.imageContainer {
+    height: 90px;
+    width: 100px;
+    display: none;
+}
+.imageContainer > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media (min-width: 350px) {
+    .tableauProduct {
+        margin: 20px 40px 10px;
+    }
+}
+@media (min-width: 400px) {
+    .tableauProduct {
+        margin: 20px 40px 10px;
+    }
+}
+@media (min-width: 780px) {
+    .provi {
+        display: block;
+    }
+    .imageContainer {
+        display: block;
+    }
+    .headerTableau {
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+        height: 50px;
+    }
+    .bodyTableau {
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    }
+    .quantity {
+    }
+    .price {
+        display: block;
+    }
+}

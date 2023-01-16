@@ -1,0 +1,20 @@
+.noticeContainer {
+    display: flex;
+    background-color: #fff5e9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 20px 20px 0;
+    margin: 20px 40px 10px;
+}
+.noticeContainer > i {
+    flex: 0 0 18px;
+    margin: 0 10px;
+    border: 1px solid black;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
