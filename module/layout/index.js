@@ -6,6 +6,7 @@ const Layout = ({ children }) => {
     const handleClick = useCallback(() => {
         setIsNavIn(!isNavIn);
     }, [isNavIn]);
+
     return (
         <>
             <HeaderWeb
